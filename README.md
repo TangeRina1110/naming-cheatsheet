@@ -47,6 +47,7 @@ Pick **one** naming convention and follow it. It may be `camelCase`, `PascalCase
 
 ```js
 /* Bad */
+<<<<<<< HEAD
 const page_count = 6
 const shouldUpdate = true
 
@@ -56,6 +57,17 @@ const shouldUpdate = true
 
 /* Good as well */
 const page_count = 6
+=======
+const page_count = 8
+const shouldUpdate = true
+
+/* Good */
+const pageCount = 8
+const shouldUpdate = true
+
+/* Good as well */
+const page_count = 8
+>>>>>>> branch1
 const should_update = true
 ```
 
